@@ -20,11 +20,11 @@ files:
   encrypted_text: NMcX/Zo4QZzpLcMU8pDmAQ==
   learner_created: false
 - name: test/latest_output.txt
-  visible: false
-  encrypted_text: NMcX/Zo4QZzpLcMU8pDmAQ==
-  learner_created: false
+  visible: true
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: true
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 14 Oct 2022 09:46:31 UTC
+  time: Mon, 21 Nov 2022 10:11:35 UTC
 record: -1

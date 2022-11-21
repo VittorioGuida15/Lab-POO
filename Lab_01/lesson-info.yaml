@@ -1,8 +1,6 @@
 content:
-- Theory
+- StringClass
 - PrintMiddleChar
-- PrintMiddleCharFromTerminal
-- InitialsConcatenationFromTerminal
 - FirstAndLastInverted
 - InvertHalfString
 - CharAt

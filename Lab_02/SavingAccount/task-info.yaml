@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 149
-    length: 714
+    length: 10
     placeholder_text: /* TODO */
     initial_state:
       length: 10
@@ -13,7 +13,7 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: 5TZVWhkFKkWaHxD8U7Q4HSa1tZPPhF1QkKzYO53aR4U=
-  - offset: 993
+  - offset: 289
     length: 10
     placeholder_text: /* TODO */
     initial_state:
@@ -23,7 +23,7 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: H3NfM8uQJ0u5xWrLsj9yCQfx17c0EuyPm4rkM9jLFy8=
-  - offset: 1108
+  - offset: 404
     length: 10
     placeholder_text: /* TODO */
     initial_state:
@@ -33,7 +33,7 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: 5+wU1QBikkt+8i8RyXMF5QQsiORNvE3aLg3i4p9QCrhNm9AJ4HmcfGKr47O8+6NE
-  - offset: 1172
+  - offset: 468
     length: 10
     placeholder_text: /* TODO */
     initial_state:
@@ -43,7 +43,7 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: rRLwbKssAzTqyXA50i+q+feWdbQGkAb/ZMVQc+XH+0s=
-  - offset: 1308
+  - offset: 604
     length: 10
     placeholder_text: /* TODO */
     initial_state:
@@ -53,7 +53,7 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: jKURa6cAnPUNgJPAXg1ObPgfwtE4jhBNcPiyvVykxAz9YNLxFieTPsHq/eX8A1cn
-  - offset: 1720
+  - offset: 1016
     length: 10
     placeholder_text: /* TODO */
     initial_state:
@@ -63,7 +63,7 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: HhYgDAJCap1F/CTezdP/m7UtmozDUJC0E8Z6GK64kAduZodsWDR6Rz6ldAQmFkXlDNypGhn/55Z6EhQ4IB78VjcWPZuBt/bAOq8uizS9y2Io3wabUXnpYWPaFQXAw3O3RjQfasTGYlyHqYjdw5PYMQHy+Pim8m45CjWNknI4ZTGHUCnDAwo65c0L9Em6UPthipWLP2N70QEOmKCQWPfTojvZzNNp4hZuv3o8eWT8BTTR2rTrM3AixgCiG1DiRuAX
-  - offset: 2089
+  - offset: 1385
     length: 10
     placeholder_text: /* TODO */
     initial_state:
@@ -82,5 +82,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 14 Oct 2022 09:52:24 UTC
+  time: Mon, 21 Nov 2022 10:12:15 UTC
 record: -1

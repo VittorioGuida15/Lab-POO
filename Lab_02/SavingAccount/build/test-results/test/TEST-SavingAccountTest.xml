@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SavingAccountTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-10-14T09:52:24" hostname="LAPTOP-8AOQP413" time="0.004">
+<testsuite name="SavingAccountTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-11-21T10:12:15" hostname="LAPTOP-8AOQP413" time="0.004">
   <properties/>
   <testcase name="setAndGetInterestsTest" classname="SavingAccountTest" time="0.003"/>
   <testcase name="interestComputationTest" classname="SavingAccountTest" time="0.0"/>

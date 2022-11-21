@@ -3,7 +3,7 @@ files:
 - name: src/Main.java
   visible: true
   placeholders:
-  - offset: 394
+  - offset: 263
     length: 10
     placeholder_text: /* TODO */
     initial_state:
@@ -13,7 +13,7 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: 1tk8bw6n/VX6V8JmkHXFa5Mb0L19Zw98sK2QKHncCW1VBvSnumeTt8ExxAgSXCAg
-  - offset: 624
+  - offset: 493
     length: 10
     placeholder_text: /* TODO */
     initial_state:
@@ -30,11 +30,11 @@ files:
   encrypted_text: vE5JqdeQQY+09Qjmx0AoHA==
   learner_created: false
 - name: test/latest_output.txt
-  visible: false
-  encrypted_text: vE5JqdeQQY+09Qjmx0AoHA==
-  learner_created: false
+  visible: true
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: true
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 14 Oct 2022 09:45:41 UTC
+  time: Mon, 21 Nov 2022 10:11:06 UTC
 record: -1

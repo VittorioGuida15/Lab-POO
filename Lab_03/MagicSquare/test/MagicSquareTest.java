@@ -47,3 +47,5 @@ public class MagicSquareTest {
     Assert.assertFalse(square.isMagic());
   }
 }
+
+

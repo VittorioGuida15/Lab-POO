@@ -20,11 +20,11 @@ files:
   encrypted_text: zR+UA+IMkSWKP1UMqMRvDA==
   learner_created: false
 - name: test/latest_output.txt
-  visible: false
-  encrypted_text: zR+UA+IMkSWKP1UMqMRvDA==
-  learner_created: false
+  visible: true
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: true
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 14 Oct 2022 09:45:50 UTC
+  time: Mon, 21 Nov 2022 10:11:18 UTC
 record: -1

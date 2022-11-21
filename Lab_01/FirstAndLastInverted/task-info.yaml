@@ -20,11 +20,11 @@ files:
   encrypted_text: icgODDCYvc8bb2NDq/wKG84HGuWhWcH24FYV5M/l2KM=
   learner_created: false
 - name: test/latest_output.txt
-  visible: false
-  encrypted_text: icgODDCYvc8bb2NDq/wKG84HGuWhWcH24FYV5M/l2KM=
-  learner_created: false
+  visible: true
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: true
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 14 Oct 2022 09:45:22 UTC
+  time: Mon, 21 Nov 2022 10:10:41 UTC
 record: -1

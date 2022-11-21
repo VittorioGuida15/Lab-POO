@@ -32,7 +32,47 @@ public class TicTacToe {
     }
 
     public String getWinner() {
-        /* TODO */
+        // Player1
+        for(int j = 0; j < COLUMNS; j++){ //verticale
+            if(board[0][j].equals(player1))
+                if(board[1][j].equals(player1))
+                    if(board[2][j].equals(player1))
+                        return "x";
+        }
+        for(int i = 0; i < ROWS; i++){ //orizzontale
+            if(board[i][0].equals(player1))
+                if(board[i][1].equals(player1))
+                    if(board[i][2].equals(player1))
+                        return "x";
+        }
+        if(board[0][0].equals(player1) && board[1][1].equals(player1) && board[2][2].equals(player1))
+            return "x"; //obbliguo1
+        if(board[0][2].equals(player1) && board[1][1].equals(player1) && board[2][0].equals(player1))
+            return "x"; //obbliguo2
+
+
+        //Player2
+        for(int j = 0; j < COLUMNS; j++){ //verticale
+            if(board[0][j].equals(player2))
+                if(board[1][j].equals(player2))
+                    if(board[2][j].equals(player2))
+                        return "o";
+        }
+        for(int i = 0; i < ROWS; i++){ //orizzontale
+            if(board[i][0].equals(player2))
+                if(board[i][1].equals(player2))
+                    if(board[i][2].equals(player2))
+                        return "o";
+        }
+        if(board[0][0].equals(player2) && board[1][1].equals(player2) && board[2][2].equals(player2))
+            return "o"; //obbliguo1
+        if(board[0][2].equals(player2) && board[1][1].equals(player2) && board[2][0].equals(player2))
+            return "o"; //obbliguo2
+
+
+        //Nessun vincitore;
+        return "Nessun vincitore";
+
     }
 
     public static void main(String[] args) {
@@ -40,6 +80,7 @@ public class TicTacToe {
         TicTacToe game = new TicTacToe();
         Scanner in = new Scanner(System.in);
         int row, column;
+        int cont = 2;
         System.out.println(game);
 
         do {
@@ -63,7 +104,15 @@ public class TicTacToe {
             if (row >= ROWS || column >= COLUMNS) {
                 System.out.println("Combinazione non valida");
             } else {
-                /* TODO */
+                game.set(row, column, player);
+                System.out.println(game.toString());
+
+                if(cont % 2 == 0)
+                    player = player2;
+                else
+                    player = player1;
+                cont++;
+
             }
 
         } while (row < ROWS && column < COLUMNS);

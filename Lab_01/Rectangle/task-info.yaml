@@ -20,11 +20,11 @@ files:
   encrypted_text: P6rtwJFA+plfgo/kym436liqNfpI/rkfbpIz4eujcp2aN0qVW+4d90C9I/6jAoPM0lk+3ttJ23GoaGEvMKVGng==
   learner_created: false
 - name: test/latest_output.txt
-  visible: false
-  encrypted_text: P6rtwJFA+plfgo/kym436liqNfpI/rkfbpIz4eujcp2aN0qVW+4d90C9I/6jAoPM0lk+3ttJ23GoaGEvMKVGng==
-  learner_created: false
+  visible: true
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: true
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 14 Oct 2022 09:46:48 UTC
+  time: Mon, 21 Nov 2022 10:12:00 UTC
 record: -1

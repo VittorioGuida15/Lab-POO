@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MagicSquare {
@@ -32,14 +33,60 @@ public class MagicSquare {
     }
 
     public void add(int x) {
-        /* TODO */
+
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < n; j++){
+                if(square[i][j] == 0) {
+                    square[i][j] = x;
+                    return;
+                }
+            }
+        }
     }
 
     public boolean isMagic() {
         int magicNumber = 0;
         boolean isMagic = true;
 
-        /* TODO */
+        for(int i = 0; i < n; i++)
+           magicNumber += square[i][0];
+
+        int diagonal1 = 0;
+        for(int i = 0, j = 0 ; i < n && j < n; i++, j++)
+            diagonal1 += square[i][j];
+        //System.out.println("Diagonale 1:" + diagonal1);
+
+        if(magicNumber != diagonal1)
+            return !isMagic;
+
+        int diagonal2 = 0;
+        for(int i = n-1, j = 0 ; i >= 0 && j < n; i--, j++)
+            diagonal2 += square[i][j];
+        //System.out.println("Diagonale 2:" + diagonal2);
+
+        if(magicNumber != diagonal2)
+            return !isMagic;
+
+
+        for(int i = 0; i < n; i++){
+            int row = 0;
+            for(int j = 0; j < n; j++){
+                row += square[i][j];
+                //System.out.println("riga" + j + ":" + row);
+            }
+            if(row != magicNumber)
+                return !isMagic;
+        }
+
+        for(int j = 0; j < n; j++){
+            int column = 0;
+            for(int i = 0; i < n; i++) {
+                column += square[i][j];
+                //System.out.println("colonna" + i + ":" + column);
+            }
+            if (column != magicNumber)
+                return !isMagic;
+        }
 
         return isMagic;
     }

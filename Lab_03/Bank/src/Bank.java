@@ -10,7 +10,8 @@ public class Bank {
     }
 
     public void addAccount(double initialBalance, String customerName) {
-        /* TODO */
+        BankAccount account = new BankAccount(initialBalance, customerName);
+        accounts.add(account);
     }
 
     public BankAccount find(int accountNumber) {
@@ -22,18 +23,37 @@ public class Bank {
     }
 
     public void deposit(int accountNumber, double amount) {
-        /* TODO */
+        BankAccount account = this.find(accountNumber);
+        if(account != null)
+            account.deposit(amount);
     }
 
     public void withdraw(int accountNumber, double amount) {
-        /* TODO */
+        BankAccount account = this.find(accountNumber);
+        if(account != null)
+            if (account.getBalance() > amount)
+                account.withdraw(amount);
     }
 
     public double getBalance(int accountNumber) {
-        /* TODO */
+        BankAccount account = this.find(accountNumber);
+        double balance;
+        if(account != null) {
+            balance = account.getBalance();
+            return balance;
+        }
+        balance = -1;
+        return balance;
     }
 
     public void transfer(int fromAccountNumber, int toAccountNumber, double amount) {
-        /* TODO */
+        BankAccount account1 = find(fromAccountNumber);
+        BankAccount account2 = find(toAccountNumber);
+        if(account1 != null && account2 != null){
+            if(account1.getBalance() > amount){
+                account1.withdraw(amount);
+                account2.deposit(amount);
+            }
+        }
     }
 }

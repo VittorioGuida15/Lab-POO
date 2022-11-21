@@ -3,7 +3,7 @@ files:
 - name: src/Main.java
   visible: true
   placeholders:
-  - offset: 224
+  - offset: 203
     length: 10
     placeholder_text: /* TODO */
     initial_state:
@@ -20,11 +20,11 @@ files:
   encrypted_text: 142eKgSAMjUs/EmSj9N8Ow==
   learner_created: false
 - name: test/latest_output.txt
-  visible: false
-  encrypted_text: 142eKgSAMjUs/EmSj9N8Ow==
-  learner_created: false
+  visible: true
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: true
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 14 Oct 2022 09:45:11 UTC
+  time: Mon, 21 Nov 2022 10:10:31 UTC
 record: -1

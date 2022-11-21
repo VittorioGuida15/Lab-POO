@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="InputCheckerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-14T09:53:17" hostname="LAPTOP-8AOQP413" time="0.003">
+<testsuite name="InputCheckerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-21T10:12:57" hostname="LAPTOP-8AOQP413" time="0.004">
   <properties/>
-  <testcase name="testCheckInput" classname="InputCheckerTest" time="0.003"/>
+  <testcase name="testCheckInput" classname="InputCheckerTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

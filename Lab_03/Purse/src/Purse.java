@@ -3,7 +3,11 @@ import java.util.List;
 
 public class Purse {
 
-    /* TODO */
+    final static Coin Dollar = new Coin("Dollar", 1);
+    final static Coin Quarter = new Coin("Quarter", 0.25);
+    final static Coin Dime = new Coin("Dime", 0.10);
+    final static Coin Nickel = new Coin("Nickel", 0.05);
+    final static Coin Cent = new Coin("Cent", 0.01);
 
     private final List<Coin> coins;
 
@@ -16,40 +20,80 @@ public class Purse {
     }
 
     public boolean find(Coin coin) {
-        /* TODO */
+        for (Coin aCoin : coins) {
+            if (aCoin.equals(coin))
+                return true;
+        }
+        return false;
     }
 
     public int count(Coin coin) {
-        /* TODO */
+        int cont = 0;
+        for (Coin aCoin : coins) {
+            if (aCoin.equals(coin))
+                cont++;
+        }
+        return cont;
     }
 
     public Coin getMinimum() {
-        /* TODO */
+        Coin min = coins.get(0);
+        for (Coin coin : coins) {
+            if (coin.getValue() < min.getValue())
+                min = coin;
+        }
+        return min;
     }
 
     public Coin getMaximum() {
-        /* TODO */
+        Coin max = coins.get(0);
+        for (Coin coin : coins) {
+            if (coin.getValue() > max.getValue())
+                max = coin;
+        }
+        return max;
     }
 
     public double getTotal() {
-        /* TODO */
+        double total = 0;
+        for (Coin coin : coins) {
+            total += coin.getValue();
+        }
+        return total;
     }
 
     public void remove(Coin coin) {
-        /* TODO */
+    for(int i = 0; i < coins.size(); i++)
+        if(coins.get(i).equals(coin))
+            coins.remove(i);
     }
 
     public boolean hasCoin(Coin coin) {
-        /* TODO */
+        for (Coin aCoin : coins) {
+            if (aCoin.equals(coin))
+                return true;
+        }
+        return false;
     }
 
     @Override
     public String toString() {
-        /* TODO */
+        return "Purse[Dollar = " + count(Dollar) + ", Quarter = " + count(Quarter) + ", Dime = " + count(Dime) + ", Nickel = " + count(Nickel) + ", Cent = " + count(Cent) + "]";
     }
 
     @Override
     public boolean equals(Object o) {
-        /* TODO */
+        if (o == this)
+            return true;
+        if (o == null || this.getClass() != o.getClass())
+            return false;
+
+        Purse purse = (Purse) o;
+        String s1 = this.toString();
+        String s2 = o.toString();
+        return s1.equals(s2);
     }
+
 }
+
+
